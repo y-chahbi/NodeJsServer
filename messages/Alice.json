@@ -1,0 +1,529 @@
+{
+  "messages": [
+    {
+      "message_id": 1,
+      "timestamp": "10:00 AM",
+      "sender": "User1",
+      "message": "Hey! How's your day going?",
+      "seen": true
+    },
+    {
+      "message_id": 2,
+      "timestamp": "10:01 AM",
+      "sender": "User2",
+      "message": "Hey! It's going well. Just got started on some coding.",
+      "seen": true
+    },
+    {
+      "message_id": 3,
+      "timestamp": "10:02 AM",
+      "sender": "User1",
+      "message": "That's great! What are you working on today?",
+      "seen": true
+    },
+    {
+      "message_id": 4,
+      "timestamp": "10:03 AM",
+      "sender": "User2",
+      "message": "I'm debugging a new feature. It's a bit tricky, but I'm making progress.",
+      "seen": true
+    },
+    {
+      "message_id": 5,
+      "timestamp": "10:04 AM",
+      "sender": "User1",
+      "message": "Nice! Let me know if you need any help.",
+      "seen": true
+    },
+    {
+      "message_id": 6,
+      "timestamp": "10:05 AM",
+      "sender": "User2",
+      "message": "Will do, thanks!",
+      "seen": true
+    },
+    {
+      "message_id": 7,
+      "timestamp": "10:06 AM",
+      "sender": "User1",
+      "message": "By the way, have you tried the new IDE update?",
+      "seen": true
+    },
+    {
+      "message_id": 8,
+      "timestamp": "10:07 AM",
+      "sender": "User2",
+      "message": "Not yet, I'll check it out later today.",
+      "seen": true
+    },
+    {
+      "message_id": 9,
+      "timestamp": "10:08 AM",
+      "sender": "User1",
+      "message": "It has some cool new debugging features.",
+      "seen": true
+    },
+    {
+      "message_id": 10,
+      "timestamp": "10:09 AM",
+      "sender": "User2",
+      "message": "Sounds promising. I'll definitely give it a try.",
+      "seen": true
+    },
+    {
+      "message_id": 11,
+      "timestamp": "10:10 AM",
+      "sender": "User1",
+      "message": "Let me know what you think once you've tried it.",
+      "seen": true
+    },
+    {
+      "message_id": 12,
+      "timestamp": "10:11 AM",
+      "sender": "User2",
+      "message": "Sure thing!",
+      "seen": true
+    },
+    {
+      "message_id": 13,
+      "timestamp": "10:12 AM",
+      "sender": "User1",
+      "message": "I'm going to grab a coffee. Back in a bit.",
+      "seen": true
+    },
+    {
+      "message_id": 14,
+      "timestamp": "10:13 AM",
+      "sender": "User2",
+      "message": "Enjoy your coffee!",
+      "seen": true
+    },
+    {
+      "message_id": 15,
+      "timestamp": "10:14 AM",
+      "sender": "User1",
+      "message": "Thanks!",
+      "seen": true
+    },
+    {
+      "message_id": 16,
+      "timestamp": "10:15 AM",
+      "sender": "User2",
+      "message": "I've made some progress with the debugging. It was a simple fix.",
+      "seen": true
+    },
+    {
+      "message_id": 17,
+      "timestamp": "10:16 AM",
+      "sender": "User1",
+      "message": "Glad to hear that!",
+      "seen": true
+    },
+    {
+      "message_id": 18,
+      "timestamp": "10:17 AM",
+      "sender": "User2",
+      "message": "Thanks for the help earlier.",
+      "seen": true
+    },
+    {
+      "message_id": 19,
+      "timestamp": "10:18 AM",
+      "sender": "User1",
+      "message": "Anytime!",
+      "seen": true
+    },
+    {
+      "message_id": 20,
+      "timestamp": "10:19 AM",
+      "sender": "User2",
+      "message": "I'm going to review some documentation now.",
+      "seen": true
+    },
+    {
+      "message_id": 21,
+      "timestamp": "10:20 AM",
+      "sender": "User1",
+      "message": "Good idea. Let me know if you need assistance with anything.",
+      "seen": true
+    },
+    {
+      "message_id": 22,
+      "timestamp": "10:21 AM",
+      "sender": "User2",
+      "message": "Will do!",
+      "seen": true
+    },
+    {
+      "message_id": 23,
+      "timestamp": "10:22 AM",
+      "sender": "User1",
+      "message": "I'm back. Did I miss anything?",
+      "seen": true
+    },
+    {
+      "message_id": 24,
+      "timestamp": "10:23 AM",
+      "sender": "User2",
+      "message": "Not much, just going through some code examples.",
+      "seen": true
+    },
+    {
+      "message_id": 25,
+      "timestamp": "10:24 AM",
+      "sender": "User1",
+      "message": "Cool. I'll catch up on what you've been working on.",
+      "seen": true
+    },
+    {
+      "message_id": 26,
+      "timestamp": "10:25 AM",
+      "sender": "User2",
+      "message": "Sure, let's go through it together.",
+      "seen": true
+    },
+    {
+      "message_id": 27,
+      "timestamp": "10:26 AM",
+      "sender": "User1",
+      "message": "I'm impressed with how you handled that bug yesterday.",
+      "seen": true
+    },
+    {
+      "message_id": 28,
+      "timestamp": "10:27 AM",
+      "sender": "User2",
+      "message": "Thanks! It took some time, but we got there in the end.",
+      "seen": true
+    },
+    {
+      "message_id": 29,
+      "timestamp": "10:28 AM",
+      "sender": "User1",
+      "message": "Teamwork makes the dream work, right?",
+      "seen": true
+    },
+    {
+      "message_id": 30,
+      "timestamp": "10:29 AM",
+      "sender": "User2",
+      "message": "Absolutely!",
+      "seen": true
+    },
+    {
+      "message_id": 31,
+      "timestamp": "10:30 AM",
+      "sender": "User1",
+      "message": "I'm going to check out that new library that was released.",
+      "seen": true
+    },
+    {
+      "message_id": 32,
+      "timestamp": "10:31 AM",
+      "sender": "User2",
+      "message": "Let me know if it's worth using.",
+      "seen": true
+    },
+    {
+      "message_id": 33,
+      "timestamp": "10:32 AM",
+      "sender": "User1",
+      "message": "Will do!",
+      "seen": true
+    },
+    {
+      "message_id": 34,
+      "timestamp": "10:33 AM",
+      "sender": "User2",
+      "message": "I'm taking a quick break. Back in a few minutes.",
+      "seen": true
+    },
+    {
+      "message_id": 35,
+      "timestamp": "10:34 AM",
+      "sender": "User1",
+      "message": "No rush. Take your time.",
+      "seen": true
+    },
+    {
+      "message_id": 36,
+      "timestamp": "10:35 AM",
+      "sender": "User2",
+      "message": "Thanks!",
+      "seen": true
+    },
+    {
+      "message_id": 37,
+      "timestamp": "10:36 AM",
+      "sender": "User1",
+      "message": "Did you hear about the upcoming conference?",
+      "seen": true
+    },
+    {
+      "message_id": 38,
+      "timestamp": "10:37 AM",
+      "sender": "User2",
+      "message": "Yes, I'm thinking of attending. It sounds interesting.",
+      "seen": true
+    },
+    {
+      "message_id": 39,
+      "timestamp": "10:38 AM",
+      "sender": "User1",
+      "message": "It could be a good opportunity to network.",
+      "seen": true
+    },
+    {
+      "message_id": 40,
+      "timestamp": "10:39 AM",
+      "sender": "User2",
+      "message": "Definitely. I'll look into it.",
+      "seen": true
+    },
+    {
+      "message_id": 41,
+      "timestamp": "10:40 AM",
+      "sender": "User1",
+      "message": "Let's discuss it further later.",
+      "seen": true
+    },
+    {
+      "message_id": 42,
+      "timestamp": "10:41 AM",
+      "sender": "User2",
+      "message": "Agreed.",
+      "seen": true
+    },
+    {
+      "message_id": 43,
+      "timestamp": "10:42 AM",
+      "sender": "User1",
+      "message": "I've found some interesting articles on new coding techniques.",
+      "seen": true
+    },
+    {
+      "message_id": 44,
+      "timestamp": "10:43 AM",
+      "sender": "User2",
+      "message": "Share them with me when you get a chance.",
+      "seen": true
+    },
+    {
+      "message_id": 45,
+      "timestamp": "10:44 AM",
+      "sender": "User1",
+      "message": "Will do!",
+      "seen": true
+    },
+    {
+      "message_id": 46,
+      "timestamp": "10:45 AM",
+      "sender": "User2",
+      "message": "I'm back. What's new?",
+      "seen": true
+    },
+    {
+      "message_id": 47,
+      "timestamp": "10:46 AM",
+      "sender": "User1",
+      "message": "I found a solution to that issue we were discussing earlier.",
+      "seen": true
+    },
+    {
+      "message_id": 48,
+      "timestamp": "10:47 AM",
+      "sender": "User2",
+      "message": "Great news!",
+      "seen": true
+    },
+    {
+      "message_id": 49,
+      "timestamp": "10:48 AM",
+      "sender": "User1",
+      "message": "It was simpler than I thought.",
+      "seen": true
+    },
+    {
+      "message_id": 50,
+      "timestamp": "10:49 AM",
+      "sender": "User2",
+      "message": "Sometimes that's how it goes.",
+      "seen": true
+    },
+    {
+      "message_id": "b875013d-4c37-466b-8c5c-b66163980355",
+      "timestamp": "10:00 PM",
+      "sender": "User2",
+      "message": "hello",
+      "seen": false
+    },
+    {
+      "message_id": "e315104e-945d-4233-87de-5355899a777b",
+      "timestamp": "10:08 PM",
+      "sender": "User2",
+      "message": "j",
+      "seen": false
+    },
+    {
+      "message_id": "ee2bdf7f-cc2b-4455-a93c-9f46c6400c05",
+      "timestamp": "10:08 PM",
+      "sender": "User2",
+      "message": "yo",
+      "seen": false
+    },
+    {
+      "message_id": "e8e678fc-95ad-4195-b94d-c7287a729371",
+      "timestamp": "10:12 PM",
+      "sender": "User2",
+      "message": "hi",
+      "seen": false
+    },
+    {
+      "message_id": "284b225f-8c1e-4dbc-b460-25e69a9a1aa2",
+      "timestamp": "10:16 PM",
+      "sender": "User2",
+      "message": "hello",
+      "seen": false
+    },
+    {
+      "message_id": "0e196a74-f620-4377-8ed7-1a1bea6b310f",
+      "timestamp": "10:17 PM",
+      "sender": "User2",
+      "message": "dsad",
+      "seen": false
+    },
+    {
+      "message_id": "7faf69c0-eebe-41fc-8300-5a0266ca5e1f",
+      "timestamp": "10:17 PM",
+      "sender": "User2",
+      "message": "asd",
+      "seen": false
+    },
+    {
+      "message_id": "60141315-37af-48ea-a947-805cbb1b4d7b",
+      "timestamp": "10:17 PM",
+      "sender": "User2",
+      "message": "sdgsgsd",
+      "seen": false
+    },
+    {
+      "message_id": "8d9eeba5-ade8-493e-a182-602abdd8756b",
+      "timestamp": "10:17 PM",
+      "sender": "User2",
+      "message": "gds",
+      "seen": false
+    },
+    {
+      "message_id": "c5e2d65a-2152-458c-8659-2b902eeafda4",
+      "timestamp": "10:17 PM",
+      "sender": "User2",
+      "message": "fd",
+      "seen": false
+    },
+    {
+      "message_id": "d1ca12d4-21f9-4555-b7bf-445e82b27b04",
+      "timestamp": "10:17 PM",
+      "sender": "User2",
+      "message": "f",
+      "seen": false
+    },
+    {
+      "message_id": "4e0c79ff-0cf7-46b0-8501-050fca434df0",
+      "timestamp": "10:17 PM",
+      "sender": "User2",
+      "message": "f",
+      "seen": false
+    },
+    {
+      "message_id": "29d4552c-442b-480d-b8bd-9c1ebcb46d82",
+      "timestamp": "10:17 PM",
+      "sender": "User2",
+      "message": "ff",
+      "seen": false
+    },
+    {
+      "message_id": "5934556c-7600-45ba-b595-de0303dca98f",
+      "timestamp": "10:17 PM",
+      "sender": "User2",
+      "message": "ffff",
+      "seen": false
+    },
+    {
+      "message_id": "7360e674-a051-4251-af5e-1d10bb6385ba",
+      "timestamp": "10:17 PM",
+      "sender": "User2",
+      "message": "f",
+      "seen": false
+    },
+    {
+      "message_id": "76b034e7-75ad-4f40-bdf8-b4bbe83e49ba",
+      "timestamp": "10:17 PM",
+      "sender": "User2",
+      "message": "f",
+      "seen": false
+    },
+    {
+      "message_id": "4fc41616-c30e-4e20-bb96-c20ddf5df6ab",
+      "timestamp": "10:17 PM",
+      "sender": "User2",
+      "message": "f",
+      "seen": false
+    },
+    {
+      "message_id": "77ed67d3-f5da-4fb4-8ced-0ee029cf4e53",
+      "timestamp": "10:17 PM",
+      "sender": "User2",
+      "message": "ff",
+      "seen": false
+    },
+    {
+      "message_id": "e46a65ab-d58b-42a2-a4d6-ccd4ff02b215",
+      "timestamp": "10:17 PM",
+      "sender": "User2",
+      "message": "f",
+      "seen": false
+    },
+    {
+      "message_id": "c2d5110a-9d60-4926-a904-aa4972dffa27",
+      "timestamp": "10:17 PM",
+      "sender": "User2",
+      "message": "ff",
+      "seen": false
+    },
+    {
+      "message_id": "9c0dcbde-5ecb-4d5e-8022-8c384d094a9e",
+      "timestamp": "10:19 PM",
+      "sender": "User2",
+      "message": "hi",
+      "seen": false
+    },
+    {
+      "message_id": "e3bb974c-14f5-4bd0-8330-2b25e5820e7f",
+      "timestamp": "10:20 PM",
+      "sender": "User2",
+      "message": "hello",
+      "seen": false
+    },
+    {
+      "message_id": "7303af80-d569-42da-b071-07941efb9613",
+      "timestamp": "10:20 PM",
+      "sender": "User2",
+      "message": "test",
+      "seen": false
+    },
+    {
+      "message_id": "68aed168-f350-4877-b406-bbefb5af417d",
+      "timestamp": "10:24 PM",
+      "sender": "User2",
+      "message": "jjjj",
+      "seen": false
+    },
+    {
+      "message_id": "fc0c424e-4638-4629-9424-ec5f40433391",
+      "timestamp": "10:26 PM",
+      "sender": "User2",
+      "message": "hello",
+      "seen": false
+    }
+  ]
+}
