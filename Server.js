@@ -1,12 +1,12 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
-const cors = require('cors'); // Import CORS middleware
+const cors = require('cors');
 
 const corsOptions = {
-    origin: 'http://172.21.224.1', // Replace with your React frontend URL
-    methods: ['GET'], // Allow only GET requests, adjust as needed
-    optionsSuccessStatus: 200 // Some legacy browsers (IE11, various SmartTVs) choke on 204
+    origin: 'http://10.13.5.5', 
+    methods: ['GET'], 
+    optionsSuccessStatus: 200 
 };
 
 const server = http.createServer((req, res) => {

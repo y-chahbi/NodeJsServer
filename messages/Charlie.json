@@ -239,13 +239,6 @@
       "message": "Thanks, you too!",
       "seen": true,
       "id": "0123"
-    },
-    {
-      "message_id": "042d856b-21fb-4583-b38d-d52ce62916a2",
-      "timestamp": "10:00 PM",
-      "sender": "User2",
-      "message": "hello",
-      "seen": false
     }
   ]
 }

@@ -191,35 +191,6 @@
       "message": "You're welcome.",
       "seen": true,
       "id": "uv78"
-    },
-    {
-      "message_id": 25,
-      "timestamp": "11:24 AM",
-      "sender": "User1",
-      "message": "I'm going to grab lunch now. Talk to you later.",
-      "seen": true,
-      "id": "wx90"
-    },
-    {
-      "message_id": "48ad1a42-aabc-4038-a224-ae9e05feb548",
-      "timestamp": "03:41 PM",
-      "sender": "User2",
-      "message": "p",
-      "seen": false
-    },
-    {
-      "message_id": "d1562f9b-19d2-465b-9e69-07a7c07e7c8f",
-      "timestamp": "10:00 PM",
-      "sender": "User2",
-      "message": "test",
-      "seen": false
-    },
-    {
-      "message_id": "80c8d87d-b4e4-4bc1-98d5-f9eb0b897dda",
-      "timestamp": "10:19 PM",
-      "sender": "User2",
-      "message": "sdf",
-      "seen": false
     }
   ]
 }
