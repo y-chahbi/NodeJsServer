@@ -4,8 +4,8 @@ const path = require('path');
 const cors = require('cors');
 
 const corsOptions = {
-    origin: 'http://10.13.5.5', 
-    methods: ['GET'], 
+    origin: 'http://10.12.1.3/', 
+    methods: ['GET', 'POST'], 
     optionsSuccessStatus: 200 
 };
 
