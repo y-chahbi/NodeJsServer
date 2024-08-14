@@ -2,6 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 const cors = require('cors');
+const WebSocket = require('ws'); // Import the ws package
 
 const corsOptions = {
     origin: 'http://192.168.43.61',  // Restrict the allowed origin
@@ -10,21 +11,17 @@ const corsOptions = {
     optionsSuccessStatus: 200        // For legacy browser support
 };
 
+// Create an HTTP server
 const server = http.createServer((req, res) => {
     // Apply CORS middleware
     cors(corsOptions)(req, res, () => {
         if (req.method === 'GET' && req.url.startsWith('/messages/')) {
             const user = req.url.split('/')[2]; // Extract user from URL
-
-            // Construct filename
-            console.log(user);
             const fileName = `messages/${user}.json`;
             const filePath = path.join(__dirname, fileName);
 
-            // Check if file exists
             fs.exists(filePath, (exists) => {
                 if (exists) {
-                    // Read file content
                     fs.readFile(filePath, (err, data) => {
                         if (err) {
                             res.writeHead(500, { 'Content-Type': 'text/plain' });
@@ -40,7 +37,6 @@ const server = http.createServer((req, res) => {
                 }
             });
         } 
-        
         
         else if (req.method === 'POST' && req.url.startsWith('/messages/')) {
             let body = '';
@@ -83,10 +79,70 @@ const server = http.createServer((req, res) => {
                     });
                 });
             });
+        } 
+        
+        else if (req.method === 'GET' && req.url === '/api/profile/statistics/') {
+            // Generate random statistics
+            const statistics = {
+                win: Math.floor(Math.random() * 100),
+                loss: Math.floor(Math.random() * 100),
+                draw: Math.floor(Math.random() * 100)
+            };
+
+            res.writeHead(200, { 'Content-Type': 'application/json' });
+            res.end(JSON.stringify(statistics));
+        } 
+        
+        else if (req.method === 'GET' && req.url === '/send/') {
+            // Define the message to be sent via WebSocket
+            const message = {
+                user: 'user2',
+                message: 'Hello my friend from socketWeb    ......',
+                time: '22:99'
+            };
+    
+            // Send the message to all connected WebSocket clients
+            broadcastMessage(message);
+    
+            // Respond to the GET request
+            res.writeHead(200, { 'Content-Type': 'application/json' });
+            res.end(JSON.stringify({ status: 'Message sent to WebSocket clients' }));
         }
-        
-        
-        
+
+        else if (req.method === 'GET' && req.url === '/api/profile/friends/') {
+            // Generate friends data with random images
+            const friends = [
+                { username: 'Alice', picture: `https://picsum.photos/seed/${Math.floor(Math.random() * 1000)}/100`, status: 'notactiveuser', rank: 1325 },
+                { username: 'Bob', picture: `https://picsum.photos/seed/${Math.floor(Math.random() * 1000)}/100`, status: 'activeuser', rank: 1150 },
+                { username: 'Charlie', picture: `https://picsum.photos/seed/${Math.floor(Math.random() * 1000)}/100`, status: 'activeuser', rank: 1420 },
+                { username: 'JohnDoe', picture: `https://picsum.photos/seed/${Math.floor(Math.random() * 1000)}/100`, status: 'activeuser', rank: 1234 },
+                { username: 'JaneSmith', picture: `https://picsum.photos/seed/${Math.floor(Math.random() * 1000)}/100`, status: 'notactiveuser', rank: 567 },
+                { username: 'Alice', picture: `https://picsum.photos/seed/${Math.floor(Math.random() * 1000)}/100`, status: 'activeuser', rank: 1456 },
+                { username: 'Bob', picture: `https://picsum.photos/seed/${Math.floor(Math.random() * 1000)}/100`, status: 'notactiveuser', rank: 789 },
+                { username: 'Alice', picture: `https://picsum.photos/seed/${Math.floor(Math.random() * 1000)}/100`, status: 'activeuser', rank: 1456 },
+                { username: 'Bob', picture: `https://picsum.photos/seed/${Math.floor(Math.random() * 1000)}/100`, status: 'notactiveuser', rank: 789 },
+                { username: 'Alice', picture: `https://picsum.photos/seed/${Math.floor(Math.random() * 1000)}/100`, status: 'activeuser', rank: 1456 },
+                { username: 'Bob', picture: `https://picsum.photos/seed/${Math.floor(Math.random() * 1000)}/100`, status: 'notactiveuser', rank: 789 },
+                { username: 'Alice', picture: `https://picsum.photos/seed/${Math.floor(Math.random() * 1000)}/100`, status: 'activeuser', rank: 1456 },
+                { username: 'Bob', picture: `https://picsum.photos/seed/${Math.floor(Math.random() * 1000)}/100`, status: 'notactiveuser', rank: 789 }
+            ];
+
+            res.writeHead(200, { 'Content-Type': 'application/json' });
+            res.end(JSON.stringify(friends));
+        }
+
+        else if (req.method === 'GET' && req.url === '/api/profile/data/') {
+            // Generate random profile data
+            const profileData = {
+                picture: `https://picsum.photos/seed/${Math.floor(Math.random() * 1000)}/200`,
+                username: 'JohnDoe',
+                background_picture: `https://picsum.photos/seed/${Math.floor(Math.random() * 1000) + 1000}/600/400`,
+                rank: Math.floor(Math.random() * 1000)
+            };
+
+            res.writeHead(200, { 'Content-Type': 'application/json' });
+            res.end(JSON.stringify(profileData));
+        } 
         
         else {
             res.writeHead(404, { 'Content-Type': 'text/plain' });
@@ -94,6 +150,44 @@ const server = http.createServer((req, res) => {
         }
     });
 });
+
+// Create a WebSocket server
+const wss = new WebSocket.Server({ server });
+
+// Send a message to all connected clients
+function broadcastMessage(message) {
+    wss.clients.forEach((client) => {
+        if (client.readyState === WebSocket.OPEN) {
+            client.send(JSON.stringify(message)); // Convert message to JSON string
+        }
+    });
+}
+
+// Example of broadcasting a message when a new connection is established
+wss.on('connection', (ws) => {
+    console.log('New WebSocket connection');
+
+    // Send a welcome message to the newly connected client
+    ws.send(JSON.stringify({ type: 'welcome', message: 'Welcome to the WebSocket server!' }));
+
+    // Handle incoming messages
+    ws.on('message', (message) => {
+        const parsedMessage = JSON.parse(message); // Parse the JSON message
+    
+        console.log('Received:', parsedMessage);
+    
+        // Broadcast the parsed message to all connected clients
+        broadcastMessage(parsedMessage);
+    });
+
+    // Handle connection close
+    ws.on('close', () => {
+        console.log('WebSocket connection closed');
+    });
+});
+
+// Send a message from the server to all clients at a specific point in your code
+
 
 const PORT = 8000;
 server.listen(PORT, () => {
