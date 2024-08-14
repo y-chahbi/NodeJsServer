@@ -4,9 +4,10 @@ const path = require('path');
 const cors = require('cors');
 
 const corsOptions = {
-    origin: 'http://10.12.1.3/', 
-    methods: ['GET', 'POST'], 
-    optionsSuccessStatus: 200 
+    origin: 'http://192.168.43.61',  // Restrict the allowed origin
+    methods: ['GET', 'POST'],        // Allow specific methods
+    credentials: true,               // Allow credentials
+    optionsSuccessStatus: 200        // For legacy browser support
 };
 
 const server = http.createServer((req, res) => {

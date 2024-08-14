@@ -349,6 +349,13 @@
       "sender": "User2",
       "message": "Sometimes that's how it goes.",
       "seen": true
+    },
+    {
+      "message_id": "a9b8e39b-d02b-41c2-bc09-215ca82b0225",
+      "timestamp": "05:50 PM",
+      "sender": "User2",
+      "message": "hello",
+      "seen": false
     }
   ]
 }
