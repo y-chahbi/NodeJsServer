@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Message Sender</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Send Message via WebSocket</h1>
+    <form id="messageForm">
+        <label for="messageInput">Enter your message:</label>
+        <input type="text" id="messageInput" required>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <script>
+        // JavaScript to handle form submission
+        const form = document.getElementById('messageForm');
+
+        form.addEventListener('submit', async function(event) {
+            event.preventDefault(); // Prevent form from submitting normally
+
+            const message = document.getElementById('messageInput').value;
+            const user = 'user1';
+            const time = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+            const data = {
+                user: user,
+                message: message,
+                time: time
+            };
+
+            try {
+                const response = await axios.post('http://10.13.5.5:8000/send/', {
+                    params: data
+                });
+            } catch (error) {
+                console.error('Error sending message:', error);
+            }
+        });
+    </script>
+</body>
+</html>

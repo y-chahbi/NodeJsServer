@@ -5,7 +5,7 @@ const cors = require('cors');
 const WebSocket = require('ws'); // Import the ws package
 
 const corsOptions = {
-    origin: 'http://192.168.43.61',  // Restrict the allowed origin
+    origin: 'http://10.13.5.5',  // Restrict the allowed origin
     methods: ['GET', 'POST'],        // Allow specific methods
     credentials: true,               // Allow credentials
     optionsSuccessStatus: 200        // For legacy browser support
@@ -38,6 +38,20 @@ const server = http.createServer((req, res) => {
             });
         } 
         
+        else if (req.method === 'GET' && req.url === '/index.html') {
+            // Serve the index.html file
+            const filePath = path.join(__dirname, 'index.html');
+            fs.readFile(filePath, (err, data) => {
+                if (err) {
+                    res.writeHead(500, { 'Content-Type': 'text/plain' });
+                    res.end('500 - Internal Server Error');
+                    return;
+                }
+                res.writeHead(200, { 'Content-Type': 'text/html' });
+                res.end(data);
+            });
+        } 
+
         else if (req.method === 'POST' && req.url.startsWith('/messages/')) {
             let body = '';
             req.on('data', chunk => {
@@ -93,20 +107,29 @@ const server = http.createServer((req, res) => {
             res.end(JSON.stringify(statistics));
         } 
         
-        else if (req.method === 'GET' && req.url === '/send/') {
-            // Define the message to be sent via WebSocket
-            const message = {
-                user: 'user2',
-                message: 'Hello my friend from socketWeb    ......',
-                time: '22:99'
-            };
+        else if (req.method === 'POST' && req.url === '/send/') {
+            let body = '';
     
-            // Send the message to all connected WebSocket clients
-            broadcastMessage(message);
+            req.on('data', chunk => {
+                body += chunk.toString(); // Convert Buffer to string
+            });
     
-            // Respond to the GET request
-            res.writeHead(200, { 'Content-Type': 'application/json' });
-            res.end(JSON.stringify({ status: 'Message sent to WebSocket clients' }));
+            req.on('end', () => {
+                const { user, message, time } = JSON.parse(body);
+                console.log(body);
+                const messageData = {
+                    user: user,
+                    message: message,
+                    time: time
+                };
+    
+                // Send the message to all connected WebSocket clients
+                broadcastMessage(messageData);
+    
+                // Respond to the GET request
+                res.writeHead(200, { 'Content-Type': 'application/json' });
+                res.end(JSON.stringify({ status: 'Message sent to WebSocket clients' }));
+            });
         }
 
         else if (req.method === 'GET' && req.url === '/api/profile/friends/') {
