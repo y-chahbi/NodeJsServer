@@ -5,7 +5,7 @@ const cors = require('cors');
 const WebSocket = require('ws'); // Import the ws package
 
 const corsOptions = {
-    origin: 'http://10.13.5.5',  // Restrict the allowed origin
+    origin: 'http://192.168.8.142',  // Restrict the allowed origin
     methods: ['GET', 'POST'],        // Allow specific methods
     credentials: true,               // Allow credentials
     optionsSuccessStatus: 200        // For legacy browser support
@@ -41,6 +41,20 @@ const server = http.createServer((req, res) => {
         else if (req.method === 'GET' && req.url === '/index.html') {
             // Serve the index.html file
             const filePath = path.join(__dirname, 'index.html');
+            fs.readFile(filePath, (err, data) => {
+                if (err) {
+                    res.writeHead(500, { 'Content-Type': 'text/plain' });
+                    res.end('500 - Internal Server Error');
+                    return;
+                }
+                res.writeHead(200, { 'Content-Type': 'text/html' });
+                res.end(data);
+            });
+        } 
+
+        else if (req.method === 'GET' && req.url === '/send.html') {
+            // Serve the send.html file
+            const filePath = path.join(__dirname, 'send.html');
             fs.readFile(filePath, (err, data) => {
                 if (err) {
                     res.writeHead(500, { 'Content-Type': 'text/plain' });
@@ -176,6 +190,7 @@ const server = http.createServer((req, res) => {
 
 // Create a WebSocket server
 const wss = new WebSocket.Server({ server });
+const wsss = new WebSocket.Server({ port: 8001 });
 
 // Send a message to all connected clients
 function broadcastMessage(message) {
@@ -185,6 +200,41 @@ function broadcastMessage(message) {
         }
     });
 }
+
+function broadcastwsss(message) {
+    wsss.clients.forEach((client) => {
+        if (client.readyState === WebSocket.OPEN) {
+            client.send(JSON.stringify(message)); // Convert message to JSON string
+        }
+    });
+}
+
+wsss.on('connection', (ws) => {
+    console.log('New WebSocket connection for friendship requests');
+
+    ws.send(JSON.stringify({ type: 'welcome', message: 'Welcome to the friendship WebSocket server!' }));
+
+    ws.on('message', (message) => {
+        const parsedMessage = JSON.parse(message); 
+        console.log('Received friendship message:', parsedMessage);
+
+        if (parsedMessage.type === 'friendship_request') {
+            // Handle friendship request
+            console.log(`Friendship request from: ${parsedMessage.from}`);
+            // You can broadcast this request or handle it as needed
+        } else if (parsedMessage.type === 'handle_friendship_request') {
+            // Handle acceptance or rejection
+            console.log(`Friendship request from: ${parsedMessage.from} with status: ${parsedMessage.status}`);
+            // You can broadcast this response or handle it as needed
+        }
+
+        broadcastwsss(parsedMessage);
+    });
+
+    ws.on('close', () => {
+        console.log('Friendship WebSocket connection closed');
+    });
+});
 
 // Example of broadcasting a message when a new connection is established
 wss.on('connection', (ws) => {
