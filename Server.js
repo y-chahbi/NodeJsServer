@@ -11,6 +11,29 @@ const corsOptions = {
     optionsSuccessStatus: 200        // For legacy browser support
 };
 
+
+
+function generateRandomPersonalData() {
+    const randomValue = () => Math.random().toString(36).substring(2, 15);
+    const randomNumber = () => Math.floor(Math.random() * 1000);
+
+    return {
+        picture: `https://picsum.photos/seed/${randomNumber()}/100`,
+        background_picture: `https://picsum.photos/seed/${randomNumber() + 1000}/600/400`,
+        username: `user_${randomValue()}`,
+        email: `${randomValue()}@example.com`,
+        first_name: `${randomValue()}`,
+        last_name: `${randomValue()}`,
+        phone_number: `+123456${randomNumber()}454`,
+        country: `${randomValue()}`,
+        city: `${randomValue()}`,
+        address: `${randomNumber()} Main St`,
+        zip_code: `ZIP${randomNumber()}`
+    };
+}
+
+
+
 // Create an HTTP server
 const server = http.createServer((req, res) => {
     // Apply CORS middleware
@@ -38,6 +61,13 @@ const server = http.createServer((req, res) => {
             });
         } 
         
+        else if (req.method === 'GET' && req.url === '/personal-data/') {
+            const personalData = generateRandomPersonalData();
+            res.writeHead(200, { 'Content-Type': 'application/json' });
+            res.end(JSON.stringify(personalData));
+        }
+
+
         else if (req.method === 'GET' && req.url === '/index.html') {
             // Serve the index.html file
             const filePath = path.join(__dirname, 'index.html');
