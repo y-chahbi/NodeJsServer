@@ -3,7 +3,7 @@
     {
       "message_id": 1,
       "timestamp": "3:00 PM",
-      "sender": "User1",
+      "sender": "Dora",
       "message": "Hey! How's it going?",
       "seen": true,
       "id": "uvw1"
@@ -11,7 +11,7 @@
     {
       "message_id": 2,
       "timestamp": "3:01 PM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Hey there! I'm doing well, thanks. How about you?",
       "seen": true,
       "id": "xyz2"
@@ -19,7 +19,7 @@
     {
       "message_id": 3,
       "timestamp": "3:02 PM",
-      "sender": "User1",
+      "sender": "Dora",
       "message": "I'm good, just wrapping up a project. What have you been up to?",
       "seen": true,
       "id": "1233"
@@ -27,7 +27,7 @@
     {
       "message_id": 4,
       "timestamp": "3:03 PM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "I've been working on some research for a new feature we're planning.",
       "seen": true,
       "id": "4564"
@@ -35,7 +35,7 @@
     {
       "message_id": 5,
       "timestamp": "3:04 PM",
-      "sender": "User1",
+      "sender": "Dora",
       "message": "That sounds interesting. What's the feature about?",
       "seen": true,
       "id": "7895"
@@ -43,7 +43,7 @@
     {
       "message_id": 6,
       "timestamp": "3:05 PM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "It's a user profile customization tool to enhance personalization.",
       "seen": true,
       "id": "0126"
@@ -51,7 +51,7 @@
     {
       "message_id": 7,
       "timestamp": "3:06 PM",
-      "sender": "User1",
+      "sender": "Dora",
       "message": "Nice! Are you considering any specific design patterns or technologies for it?",
       "seen": true,
       "id": "3457"
@@ -59,7 +59,7 @@
     {
       "message_id": 8,
       "timestamp": "3:07 PM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "We're looking into microservices architecture and React for the frontend.",
       "seen": true,
       "id": "6788"
@@ -67,7 +67,7 @@
     {
       "message_id": 9,
       "timestamp": "3:08 PM",
-      "sender": "User1",
+      "sender": "Dora",
       "message": "Those choices should provide scalability and responsiveness. Any challenges so far?",
       "seen": true,
       "id": "9019"
@@ -75,7 +75,7 @@
     {
       "message_id": 10,
       "timestamp": "3:09 PM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Integration with existing modules is proving to be the main challenge.",
       "seen": true,
       "id": "2340"
@@ -83,7 +83,7 @@
     {
       "message_id": 11,
       "timestamp": "3:10 PM",
-      "sender": "User1",
+      "sender": "Dora",
       "message": "Have you considered using GraphQL for data fetching to streamline integration?",
       "seen": true,
       "id": "5671"
@@ -91,7 +91,7 @@
     {
       "message_id": 12,
       "timestamp": "3:11 PM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Yes, GraphQL looks promising. I'm exploring its capabilities.",
       "seen": true,
       "id": "8902"
@@ -99,7 +99,7 @@
     {
       "message_id": 13,
       "timestamp": "3:12 PM",
-      "sender": "User1",
+      "sender": "Dora",
       "message": "Let me know if you need help with GraphQL queries or schema design.",
       "seen": true,
       "id": "1233"
@@ -107,7 +107,7 @@
     {
       "message_id": 14,
       "timestamp": "3:13 PM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Thanks, I'll keep that in mind.",
       "seen": true,
       "id": "4564"
@@ -115,7 +115,7 @@
     {
       "message_id": 15,
       "timestamp": "3:14 PM",
-      "sender": "User1",
+      "sender": "Dora",
       "message": "How's the timeline looking for the feature release?",
       "seen": true,
       "id": "7895"
@@ -123,7 +123,7 @@
     {
       "message_id": 16,
       "timestamp": "3:15 PM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "We're aiming for next month, pending successful integration.",
       "seen": true,
       "id": "0126"
@@ -131,7 +131,7 @@
     {
       "message_id": 17,
       "timestamp": "3:16 PM",
-      "sender": "User1",
+      "sender": "Dora",
       "message": "Exciting times ahead. Keep me updated on your progress!",
       "seen": true,
       "id": "3457"
@@ -139,7 +139,7 @@
     {
       "message_id": 18,
       "timestamp": "3:17 PM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Will do. How's your project going?",
       "seen": true,
       "id": "6788"
@@ -147,7 +147,7 @@
     {
       "message_id": 19,
       "timestamp": "3:18 PM",
-      "sender": "User1",
+      "sender": "Dora",
       "message": "We're preparing for a major deployment next week. Testing is in full swing.",
       "seen": true,
       "id": "9019"
@@ -155,7 +155,7 @@
     {
       "message_id": 20,
       "timestamp": "3:19 PM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Wishing you a smooth rollout. Deployment days can be intense.",
       "seen": true,
       "id": "2340"
@@ -163,7 +163,7 @@
     {
       "message_id": 21,
       "timestamp": "3:20 PM",
-      "sender": "User1",
+      "sender": "Dora",
       "message": "Thank you! We have contingency plans in place. Any weekend plans?",
       "seen": true,
       "id": "5671"
@@ -171,7 +171,7 @@
     {
       "message_id": 22,
       "timestamp": "3:21 PM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Not much planned, just catching up on some reading. How about you?",
       "seen": true,
       "id": "8902"
@@ -179,7 +179,7 @@
     {
       "message_id": 23,
       "timestamp": "3:22 PM",
-      "sender": "User1",
+      "sender": "Dora",
       "message": "I'm attending a virtual conference on Saturday and relaxing on Sunday.",
       "seen": true,
       "id": "1233"
@@ -187,7 +187,7 @@
     {
       "message_id": 24,
       "timestamp": "3:23 PM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Sounds like a balanced weekend. Enjoy the conference!",
       "seen": true,
       "id": "4564"
@@ -195,7 +195,7 @@
     {
       "message_id": 25,
       "timestamp": "3:24 PM",
-      "sender": "User1",
+      "sender": "Dora",
       "message": "Thanks! Talk to you later.",
       "seen": true,
       "id": "7895"
@@ -203,7 +203,7 @@
     {
       "message_id": 26,
       "timestamp": "3:25 PM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Take care!",
       "seen": true,
       "id": "0126"
@@ -211,7 +211,7 @@
     {
       "message_id": 27,
       "timestamp": "3:26 PM",
-      "sender": "User1",
+      "sender": "Dora",
       "message": "Hey, I'm back. Sorry for the interruption earlier.",
       "seen": true,
       "id": "3457"
@@ -219,7 +219,7 @@
     {
       "message_id": 28,
       "timestamp": "3:27 PM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "No worries! What's up?",
       "seen": true,
       "id": "6788"
@@ -227,7 +227,7 @@
     {
       "message_id": 29,
       "timestamp": "3:28 PM",
-      "sender": "User1",
+      "sender": "Dora",
       "message": "Just checking in. How's your day going?",
       "seen": true,
       "id": "9019"
@@ -235,7 +235,7 @@
     {
       "message_id": 30,
       "timestamp": "3:29 PM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Pretty good. Just wrapping up a few tasks before the end of the day.",
       "seen": true,
       "id": "2340"

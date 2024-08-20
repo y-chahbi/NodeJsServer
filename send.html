@@ -71,7 +71,7 @@
         function sendMessage() {
             const message = document.getElementById('messageInput').value;
             if (messageSocket.readyState === WebSocket.OPEN) {
-                messageSocket.send(JSON.stringify({ message }));
+                messageSocket.send(JSON.stringify({ message : message, user : "Alice" }));
             } else {
                 alert('Messaging WebSocket is not connected');
             }

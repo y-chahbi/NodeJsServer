@@ -3,7 +3,7 @@
     {
       "message_id": 1,
       "timestamp": "9:00 AM",
-      "sender": "User1",
+      "sender": "Charlie",
       "message": "Good morning! How was your weekend?",
       "seen": true,
       "id": "abc1"
@@ -11,7 +11,7 @@
     {
       "message_id": 2,
       "timestamp": "9:01 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Good morning! It was great, thanks. How about yours?",
       "seen": true,
       "id": "def2"
@@ -19,7 +19,7 @@
     {
       "message_id": 3,
       "timestamp": "9:02 AM",
-      "sender": "User1",
+      "sender": "Charlie",
       "message": "It was relaxing. I went hiking on Saturday and caught up on some reading.",
       "seen": true,
       "id": "ghi3"
@@ -27,7 +27,7 @@
     {
       "message_id": 4,
       "timestamp": "9:03 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Sounds refreshing. Did you enjoy the hike?",
       "seen": true,
       "id": "jkl4"
@@ -35,7 +35,7 @@
     {
       "message_id": 5,
       "timestamp": "9:04 AM",
-      "sender": "User1",
+      "sender": "Charlie",
       "message": "Yes, the weather was perfect. How about you? Any highlights from your weekend?",
       "seen": true,
       "id": "mno5"
@@ -43,7 +43,7 @@
     {
       "message_id": 6,
       "timestamp": "9:05 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "I attended a friend's birthday party on Saturday and spent Sunday relaxing at home.",
       "seen": true,
       "id": "pqr6"
@@ -51,7 +51,7 @@
     {
       "message_id": 7,
       "timestamp": "9:06 AM",
-      "sender": "User1",
+      "sender": "Charlie",
       "message": "Nice! Birthdays are always fun. Did you do anything special at the party?",
       "seen": true,
       "id": "stu7"
@@ -59,7 +59,7 @@
     {
       "message_id": 8,
       "timestamp": "9:07 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "We had a barbecue and played some games. It was a good time.",
       "seen": true,
       "id": "vwx8"
@@ -67,7 +67,7 @@
     {
       "message_id": 9,
       "timestamp": "9:08 AM",
-      "sender": "User1",
+      "sender": "Charlie",
       "message": "Sounds like a blast. What's on your agenda for this week?",
       "seen": true,
       "id": "yza9"
@@ -75,7 +75,7 @@
     {
       "message_id": 10,
       "timestamp": "9:09 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "I have a few meetings lined up and need to finalize a project proposal.",
       "seen": true,
       "id": "bcd0"
@@ -83,7 +83,7 @@
     {
       "message_id": 11,
       "timestamp": "9:10 AM",
-      "sender": "User1",
+      "sender": "Charlie",
       "message": "Busy week ahead. Let me know if you need any help with the proposal.",
       "seen": true,
       "id": "efg1"
@@ -91,7 +91,7 @@
     {
       "message_id": 12,
       "timestamp": "9:11 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Thanks, I might take you up on that offer.",
       "seen": true,
       "id": "hij2"
@@ -99,7 +99,7 @@
     {
       "message_id": 13,
       "timestamp": "9:12 AM",
-      "sender": "User1",
+      "sender": "Charlie",
       "message": "No problem. I'm working on optimizing our database queries this week.",
       "seen": true,
       "id": "klm3"
@@ -107,7 +107,7 @@
     {
       "message_id": 14,
       "timestamp": "9:13 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "That's important. How's it going so far?",
       "seen": true,
       "id": "nop4"
@@ -115,7 +115,7 @@
     {
       "message_id": 15,
       "timestamp": "9:14 AM",
-      "sender": "User1",
+      "sender": "Charlie",
       "message": "Making progress, but there are a few complex queries to tackle.",
       "seen": true,
       "id": "qrs5"
@@ -123,7 +123,7 @@
     {
       "message_id": 16,
       "timestamp": "9:15 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Take your time. Optimization pays off in the long run.",
       "seen": true,
       "id": "tuv6"
@@ -131,7 +131,7 @@
     {
       "message_id": 17,
       "timestamp": "9:16 AM",
-      "sender": "User1",
+      "sender": "Charlie",
       "message": "Agreed. How's your project proposal coming along?",
       "seen": true,
       "id": "wxy7"
@@ -139,7 +139,7 @@
     {
       "message_id": 18,
       "timestamp": "9:17 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Almost done. Just need to review and polish it.",
       "seen": true,
       "id": "zab8"
@@ -147,7 +147,7 @@
     {
       "message_id": 19,
       "timestamp": "9:18 AM",
-      "sender": "User1",
+      "sender": "Charlie",
       "message": "That's great. Let me know if you need a fresh pair of eyes for feedback.",
       "seen": true,
       "id": "cde9"
@@ -155,7 +155,7 @@
     {
       "message_id": 20,
       "timestamp": "9:19 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Will do. Thanks!",
       "seen": true,
       "id": "fgh0"
@@ -163,7 +163,7 @@
     {
       "message_id": 21,
       "timestamp": "9:20 AM",
-      "sender": "User1",
+      "sender": "Charlie",
       "message": "Did you hear about the new project management tool our team is considering?",
       "seen": true,
       "id": "ijk1"
@@ -171,7 +171,7 @@
     {
       "message_id": 22,
       "timestamp": "9:21 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Yes, I saw the demo. It looks promising.",
       "seen": true,
       "id": "lmn2"
@@ -179,7 +179,7 @@
     {
       "message_id": 23,
       "timestamp": "9:22 AM",
-      "sender": "User1",
+      "sender": "Charlie",
       "message": "I think it could streamline our workflows significantly.",
       "seen": true,
       "id": "opq3"
@@ -187,7 +187,7 @@
     {
       "message_id": 24,
       "timestamp": "9:23 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Agreed. I'm excited about the potential improvements.",
       "seen": true,
       "id": "rst4"
@@ -195,7 +195,7 @@
     {
       "message_id": 25,
       "timestamp": "9:24 AM",
-      "sender": "User1",
+      "sender": "Charlie",
       "message": "Let's discuss it further during our team meeting this afternoon.",
       "seen": true,
       "id": "uvw5"
@@ -203,7 +203,7 @@
     {
       "message_id": 26,
       "timestamp": "9:25 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Sounds good. I'll see you there.",
       "seen": true,
       "id": "xyz6"
@@ -211,7 +211,7 @@
     {
       "message_id": 27,
       "timestamp": "9:26 AM",
-      "sender": "User1",
+      "sender": "Charlie",
       "message": "I need to head to another meeting now. Talk to you later.",
       "seen": true,
       "id": "1237"
@@ -219,7 +219,7 @@
     {
       "message_id": 28,
       "timestamp": "9:27 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Sure, catch you later.",
       "seen": true,
       "id": "4568"
@@ -227,7 +227,7 @@
     {
       "message_id": 29,
       "timestamp": "9:28 AM",
-      "sender": "User1",
+      "sender": "Charlie",
       "message": "Have a productive day!",
       "seen": true,
       "id": "7899"
@@ -235,7 +235,7 @@
     {
       "message_id": 30,
       "timestamp": "9:29 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Thanks, you too!",
       "seen": true,
       "id": "0123"

@@ -3,7 +3,7 @@
       {
         "message_id": 1,
         "timestamp": "9:00 AM",
-        "sender": "User1",
+        "sender": "Fiona",
         "message": "Morning! How's the project coming along?",
         "seen": true,
         "id": "abc1"
@@ -11,7 +11,7 @@
       {
         "message_id": 2,
         "timestamp": "9:01 AM",
-        "sender": "User2",
+        "sender": "hisoka",
         "message": "Morning! Making good progress. We're testing the new features today.",
         "seen": true,
         "id": "def2"
@@ -19,7 +19,7 @@
       {
         "message_id": 3,
         "timestamp": "9:02 AM",
-        "sender": "User1",
+        "sender": "Fiona",
         "message": "That's great to hear. Any challenges so far?",
         "seen": true,
         "id": "ghi3"
@@ -27,7 +27,7 @@
       {
         "message_id": 4,
         "timestamp": "9:03 AM",
-        "sender": "User2",
+        "sender": "hisoka",
         "message": "We ran into some compatibility issues with older browsers.",
         "seen": true,
         "id": "jkl4"
@@ -35,7 +35,7 @@
       {
         "message_id": 5,
         "timestamp": "9:04 AM",
-        "sender": "User1",
+        "sender": "Fiona",
         "message": "Ah, that can be tricky. How are you addressing it?",
         "seen": true,
         "id": "mno5"
@@ -43,7 +43,7 @@
       {
         "message_id": 6,
         "timestamp": "9:05 AM",
-        "sender": "User2",
+        "sender": "hisoka",
         "message": "We're optimizing the code and exploring polyfill options.",
         "seen": true,
         "id": "pqr6"
@@ -51,7 +51,7 @@
       {
         "message_id": 7,
         "timestamp": "9:06 AM",
-        "sender": "User1",
+        "sender": "Fiona",
         "message": "Good approach. Have you considered feature detection techniques?",
         "seen": true,
         "id": "stu7"
@@ -59,7 +59,7 @@
       {
         "message_id": 8,
         "timestamp": "9:07 AM",
-        "sender": "User2",
+        "sender": "hisoka",
         "message": "Yes, we're implementing feature detection to handle different browser behaviors.",
         "seen": true,
         "id": "vwx8"
@@ -67,7 +67,7 @@
       {
         "message_id": 9,
         "timestamp": "9:08 AM",
-        "sender": "User1",
+        "sender": "Fiona",
         "message": "That should help ensure a smoother user experience across platforms.",
         "seen": true,
         "id": "yza9"
@@ -75,7 +75,7 @@
       {
         "message_id": 10,
         "timestamp": "9:09 AM",
-        "sender": "User2",
+        "sender": "hisoka",
         "message": "Exactly. How's your project progressing?",
         "seen": true,
         "id": "bcd0"
@@ -83,7 +83,7 @@
       {
         "message_id": 11,
         "timestamp": "9:10 AM",
-        "sender": "User1",
+        "sender": "Fiona",
         "message": "We're in the final stages of content creation. Review and approvals are ongoing.",
         "seen": true,
         "id": "efg1"
@@ -91,7 +91,7 @@
       {
         "message_id": 12,
         "timestamp": "9:11 AM",
-        "sender": "User2",
+        "sender": "hisoka",
         "message": "Exciting times! When do you expect to launch?",
         "seen": true,
         "id": "hij2"
@@ -99,7 +99,7 @@
       {
         "message_id": 13,
         "timestamp": "9:12 AM",
-        "sender": "User1",
+        "sender": "Fiona",
         "message": "Next month. We're planning a phased rollout for user feedback.",
         "seen": true,
         "id": "klm3"
@@ -107,7 +107,7 @@
       {
         "message_id": 14,
         "timestamp": "9:13 AM",
-        "sender": "User2",
+        "sender": "hisoka",
         "message": "Smart approach. Early feedback is crucial for refining the user experience.",
         "seen": true,
         "id": "nop4"
@@ -115,7 +115,7 @@
       {
         "message_id": 15,
         "timestamp": "9:14 AM",
-        "sender": "User1",
+        "sender": "Fiona",
         "message": "Absolutely. How do you handle user feedback and prioritize improvements?",
         "seen": true,
         "id": "qrs5"
@@ -123,7 +123,7 @@
       {
         "message_id": 16,
         "timestamp": "9:15 AM",
-        "sender": "User2",
+        "sender": "hisoka",
         "message": "We use a combination of analytics data and user surveys to inform our decisions.",
         "seen": true,
         "id": "tuv6"
@@ -131,7 +131,7 @@
       {
         "message_id": 17,
         "timestamp": "9:16 AM",
-        "sender": "User1",
+        "sender": "Fiona",
         "message": "That's a robust approach. How do you ensure effective communication within the team?",
         "seen": true,
         "id": "wxy7"
@@ -139,7 +139,7 @@
       {
         "message_id": 18,
         "timestamp": "9:17 AM",
-        "sender": "User2",
+        "sender": "hisoka",
         "message": "We have regular stand-ups and use Slack for real-time updates.",
         "seen": true,
         "id": "zab8"
@@ -147,7 +147,7 @@
       {
         "message_id": 19,
         "timestamp": "9:18 AM",
-        "sender": "User1",
+        "sender": "Fiona",
         "message": "Sounds efficient. Clear communication is key to project success.",
         "seen": true,
         "id": "cde9"
@@ -155,7 +155,7 @@
       {
         "message_id": 20,
         "timestamp": "9:19 AM",
-        "sender": "User2",
+        "sender": "hisoka",
         "message": "Absolutely. How do you manage scope changes and unexpected challenges?",
         "seen": true,
         "id": "fgh0"
@@ -163,7 +163,7 @@
       {
         "message_id": 21,
         "timestamp": "9:20 AM",
-        "sender": "User1",
+        "sender": "Fiona",
         "message": "We prioritize based on impact and feasibility, with stakeholder input.",
         "seen": true,
         "id": "ijk1"
@@ -171,7 +171,7 @@
       {
         "message_id": 22,
         "timestamp": "9:21 AM",
-        "sender": "User2",
+        "sender": "hisoka",
         "message": "Smart approach. It allows for adaptability without compromising on goals.",
         "seen": true,
         "id": "lmn2"
@@ -179,7 +179,7 @@
       {
         "message_id": 23,
         "timestamp": "9:22 AM",
-        "sender": "User1",
+        "sender": "Fiona",
         "message": "Indeed. Collaboration and flexibility are crucial in dynamic projects.",
         "seen": true,
         "id": "opq3"
@@ -187,7 +187,7 @@
       {
         "message_id": 24,
         "timestamp": "9:23 AM",
-        "sender": "User2",
+        "sender": "hisoka",
         "message": "Absolutely. How do you ensure alignment between project milestones and business goals?",
         "seen": true,
         "id": "rst4"
@@ -195,7 +195,7 @@
       {
         "message_id": 25,
         "timestamp": "9:24 AM",
-        "sender": "User1",
+        "sender": "Fiona",
         "message": "We conduct regular reviews to align project outcomes with strategic objectives.",
         "seen": true,
         "id": "uvw5"

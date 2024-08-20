@@ -3,350 +3,350 @@
     {
       "message_id": 1,
       "timestamp": "10:00 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "Hey! How's your day going?",
       "seen": true
     },
     {
       "message_id": 2,
       "timestamp": "10:01 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Hey! It's going well. Just got started on some coding.",
       "seen": true
     },
     {
       "message_id": 3,
       "timestamp": "10:02 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "That's great! What are you working on today?",
       "seen": true
     },
     {
       "message_id": 4,
       "timestamp": "10:03 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "I'm debugging a new feature. It's a bit tricky, but I'm making progress.",
       "seen": true
     },
     {
       "message_id": 5,
       "timestamp": "10:04 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "Nice! Let me know if you need any help.",
       "seen": true
     },
     {
       "message_id": 6,
       "timestamp": "10:05 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Will do, thanks!",
       "seen": true
     },
     {
       "message_id": 7,
       "timestamp": "10:06 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "By the way, have you tried the new IDE update?",
       "seen": true
     },
     {
       "message_id": 8,
       "timestamp": "10:07 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Not yet, I'll check it out later today.",
       "seen": true
     },
     {
       "message_id": 9,
       "timestamp": "10:08 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "It has some cool new debugging features.",
       "seen": true
     },
     {
       "message_id": 10,
       "timestamp": "10:09 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Sounds promising. I'll definitely give it a try.",
       "seen": true
     },
     {
       "message_id": 11,
       "timestamp": "10:10 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "Let me know what you think once you've tried it.",
       "seen": true
     },
     {
       "message_id": 12,
       "timestamp": "10:11 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Sure thing!",
       "seen": true
     },
     {
       "message_id": 13,
       "timestamp": "10:12 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "I'm going to grab a coffee. Back in a bit.",
       "seen": true
     },
     {
       "message_id": 14,
       "timestamp": "10:13 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Enjoy your coffee!",
       "seen": true
     },
     {
       "message_id": 15,
       "timestamp": "10:14 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "Thanks!",
       "seen": true
     },
     {
       "message_id": 16,
       "timestamp": "10:15 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "I've made some progress with the debugging. It was a simple fix.",
       "seen": true
     },
     {
       "message_id": 17,
       "timestamp": "10:16 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "Glad to hear that!",
       "seen": true
     },
     {
       "message_id": 18,
       "timestamp": "10:17 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Thanks for the help earlier.",
       "seen": true
     },
     {
       "message_id": 19,
       "timestamp": "10:18 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "Anytime!",
       "seen": true
     },
     {
       "message_id": 20,
       "timestamp": "10:19 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "I'm going to review some documentation now.",
       "seen": true
     },
     {
       "message_id": 21,
       "timestamp": "10:20 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "Good idea. Let me know if you need assistance with anything.",
       "seen": true
     },
     {
       "message_id": 22,
       "timestamp": "10:21 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Will do!",
       "seen": true
     },
     {
       "message_id": 23,
       "timestamp": "10:22 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "I'm back. Did I miss anything?",
       "seen": true
     },
     {
       "message_id": 24,
       "timestamp": "10:23 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Not much, just going through some code examples.",
       "seen": true
     },
     {
       "message_id": 25,
       "timestamp": "10:24 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "Cool. I'll catch up on what you've been working on.",
       "seen": true
     },
     {
       "message_id": 26,
       "timestamp": "10:25 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Sure, let's go through it together.",
       "seen": true
     },
     {
       "message_id": 27,
       "timestamp": "10:26 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "I'm impressed with how you handled that bug yesterday.",
       "seen": true
     },
     {
       "message_id": 28,
       "timestamp": "10:27 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Thanks! It took some time, but we got there in the end.",
       "seen": true
     },
     {
       "message_id": 29,
       "timestamp": "10:28 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "Teamwork makes the dream work, right?",
       "seen": true
     },
     {
       "message_id": 30,
       "timestamp": "10:29 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Absolutely!",
       "seen": true
     },
     {
       "message_id": 31,
       "timestamp": "10:30 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "I'm going to check out that new library that was released.",
       "seen": true
     },
     {
       "message_id": 32,
       "timestamp": "10:31 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Let me know if it's worth using.",
       "seen": true
     },
     {
       "message_id": 33,
       "timestamp": "10:32 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "Will do!",
       "seen": true
     },
     {
       "message_id": 34,
       "timestamp": "10:33 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "I'm taking a quick break. Back in a few minutes.",
       "seen": true
     },
     {
       "message_id": 35,
       "timestamp": "10:34 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "No rush. Take your time.",
       "seen": true
     },
     {
       "message_id": 36,
       "timestamp": "10:35 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Thanks!",
       "seen": true
     },
     {
       "message_id": 37,
       "timestamp": "10:36 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "Did you hear about the upcoming conference?",
       "seen": true
     },
     {
       "message_id": 38,
       "timestamp": "10:37 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Yes, I'm thinking of attending. It sounds interesting.",
       "seen": true
     },
     {
       "message_id": 39,
       "timestamp": "10:38 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "It could be a good opportunity to network.",
       "seen": true
     },
     {
       "message_id": 40,
       "timestamp": "10:39 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Definitely. I'll look into it.",
       "seen": true
     },
     {
       "message_id": 41,
       "timestamp": "10:40 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "Let's discuss it further later.",
       "seen": true
     },
     {
       "message_id": 42,
       "timestamp": "10:41 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Agreed.",
       "seen": true
     },
     {
       "message_id": 43,
       "timestamp": "10:42 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "I've found some interesting articles on new coding techniques.",
       "seen": true
     },
     {
       "message_id": 44,
       "timestamp": "10:43 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Share them with me when you get a chance.",
       "seen": true
     },
     {
       "message_id": 45,
       "timestamp": "10:44 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "Will do!",
       "seen": true
     },
     {
       "message_id": 46,
       "timestamp": "10:45 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "I'm back. What's new?",
       "seen": true
     },
     {
       "message_id": 47,
       "timestamp": "10:46 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "I found a solution to that issue we were discussing earlier.",
       "seen": true
     },
     {
       "message_id": 48,
       "timestamp": "10:47 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Great news!",
       "seen": true
     },
     {
       "message_id": 49,
       "timestamp": "10:48 AM",
-      "sender": "User1",
+      "sender": "Alice",
       "message": "It was simpler than I thought.",
       "seen": true
     },
     {
       "message_id": 50,
       "timestamp": "10:49 AM",
-      "sender": "User2",
+      "sender": "hisoka",
       "message": "Sometimes that's how it goes.",
       "seen": true
     }

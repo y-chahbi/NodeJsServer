@@ -176,6 +176,12 @@ const server = http.createServer((req, res) => {
             });
         }
 
+        else if (req.method === 'GET' && req.url === '/api/WhoAmI/') {
+            // New endpoint to return the username "Hisoka"
+            res.writeHead(200, { 'Content-Type': 'application/json' });
+            res.end(JSON.stringify({ username: 'hisoka' }));
+        }
+
         else if (req.method === 'GET' && req.url === '/api/profile/friends/') {
             // Generate friends data with random images
             const friends = [
