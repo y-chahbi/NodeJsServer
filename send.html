@@ -27,6 +27,7 @@
     <!-- Messaging WebSocket -->
     <h2>Send Message to Messaging WebSocket</h2>
     <textarea id="messageInput" rows="4" placeholder="Enter your message"></textarea>
+    <textarea id="userInput" rows="1" placeholder="Enter User"></textarea>
     <button onclick="sendMessage()">Send Message</button>
 
     <!-- Friendship WebSocket -->
@@ -38,7 +39,7 @@
 
     <script>
         // Create WebSocket connection to the messaging server
-        const messageSocket = new WebSocket('ws://10.12.1.3:8000');
+        const messageSocket = new WebSocket('ws://10.12.1.1:8000');
 
         messageSocket.onopen = () => {
             console.log('Connected to the messaging WebSocket server');
@@ -53,7 +54,7 @@
         };
 
         // Create WebSocket connection to the friendship server
-        const friendshipSocket = new WebSocket('ws://10.12.1.3:8001');
+        const friendshipSocket = new WebSocket('ws://10.12.1.1:8001');
 
         friendshipSocket.onopen = () => {
             console.log('Connected to the friendship WebSocket server');
@@ -70,8 +71,9 @@
         // Function to send a message to the messaging WebSocket
         function sendMessage() {
             const message = document.getElementById('messageInput').value;
+            const usermsg = document.getElementById('userInput').value;
             if (messageSocket.readyState === WebSocket.OPEN) {
-                messageSocket.send(JSON.stringify({ message : message, user : "Alice" }));
+                messageSocket.send(JSON.stringify({ message : message, user : usermsg }));
             } else {
                 alert('Messaging WebSocket is not connected');
             }
