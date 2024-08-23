@@ -39,7 +39,7 @@
 
     <script>
         // Create WebSocket connection to the messaging server
-        const messageSocket = new WebSocket('ws://10.12.1.1:8000');
+        const messageSocket = new WebSocket('ws://10.11.2.3:8000');
 
         messageSocket.onopen = () => {
             console.log('Connected to the messaging WebSocket server');
@@ -54,7 +54,7 @@
         };
 
         // Create WebSocket connection to the friendship server
-        const friendshipSocket = new WebSocket('ws://10.12.1.1:8001');
+        const friendshipSocket = new WebSocket('ws://10.11.2.3:8001');
 
         friendshipSocket.onopen = () => {
             console.log('Connected to the friendship WebSocket server');
