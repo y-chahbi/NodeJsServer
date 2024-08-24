@@ -5,7 +5,7 @@ const cors = require('cors');
 const WebSocket = require('ws'); // Import the ws package
 
 const corsOptions = {
-    origin: 'http://10.11.2.3',  // Restrict the allowed origin
+    origin: 'http://10.12.1.3',  // Restrict the allowed origin
     methods: ['GET', 'POST'],        // Allow specific methods
     credentials: true,               // Allow credentials
     optionsSuccessStatus: 200        // For legacy browser support
